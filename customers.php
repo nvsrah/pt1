@@ -46,7 +46,7 @@ ob_start();
                     </select>
                 </div>
                 <div class="col-md-4">
-                    <label for="customer_phone" class="form-label">Phone Number <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="customer_phone" class="form-label">Phone <span class="text-danger" aria-hidden="true">*</span></label>
                     <input name="customer_phone" id="customer_phone" type="text" class="form-control" placeholder="Enter Phone Number" value="" required>
                 </div>
                 <div class="col-md-4">
@@ -94,7 +94,7 @@ ob_start();
                         <th>Customer ID</th>
                         <th>Name</th>
                         <th>Gender</th>
-                        <th>Phone Number</th>
+                        <th>Phone</th>
                         <th>Register Date</th>
                         <th>Actions</th>
                     </tr>
@@ -102,10 +102,10 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>C001</td>
-                        <td>Ahmad Zaki</td>
+                        <td>John Doe</td>
                         <td>Male</td>
                         <td>012-3456789</td>
-                        <td>2026-01-15</td>
+                        <td>01-01-2026</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -120,7 +120,7 @@ ob_start();
                         <td>Siti Nurhaliza</td>
                         <td>Female</td>
                         <td>019-8765432</td>
-                        <td>2026-02-10</td>
+                        <td>10-02-2026</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -135,7 +135,7 @@ ob_start();
                         <td>Tan Wei Ming</td>
                         <td>Male</td>
                         <td>017-1122334</td>
-                        <td>2026-03-05</td>
+                        <td>05-03-2026</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
