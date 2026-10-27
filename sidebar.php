@@ -2,7 +2,7 @@
         <div class="p-4">
           <a href="home.php" class="navbar-brand text-decoration-none text-white">
             <div class="row">
-              <h5 class="mb-0">Jam & Juniper</h5>
+              <h5 class="mb-0">🍓 Jam & Juniper</h5>
             </div>
           </a>
           <hr>                  
@@ -46,7 +46,7 @@
               </div>
               <div class="d-inline-block align-middle ms-2 text-start">
                 <h6 class="mb-0 text-nowrap">User</h6>
-                <small class="text-white-50 text-nowrap d-block">user@email.com</small>
+                <small class="text-white-50 text-nowrap d-block">admin@jamjuniper.com</small>
               </div>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">

@@ -45,33 +45,33 @@ ob_start();
                     <label for="brand" class="form-label">Brand <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_brand" id="brand" class="form-select" required>
                         <option value="">Select Brand</option>
-                        <option value="Cervelo">Cervelo</option>
-                        <option value="Geometric">Geometric</option>
-                        <option value="Tecc">Tecc</option>
-                        <option value="Nosh">Nosh</option>
+                        <option value="Cervelo">Orchard Bliss</option>
+                        <option value="Geometric">BerryBest</option>
+                        <option value="Tecc">Spoonful</option>
+                        <option value="Nosh">The Jar House</option>
                     </select>
                 </div>
  
                 <div class="col-md-3">
-                    <label for="product_condition" class="form-label">Jar Size<span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="product_condition" class="form-label">Jar Style<span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_condition" id="product_condition" class="form-select" required>
-                        <option value="">Select Jar Size</option>
-                        <option value="60g">45g</option>
-                        <option value="120g">120g</option>
-                        <option value="350g">350g</option>
-                        <option value="480g">480g</option>
+                        <option value="">Select Jar Style</option>
+                        <option value="Classic Gold-Lid">Classic Gold-Lid</option>
+                        <option value="Vintage Ribbed-Glass">Vintage Ribbed-Glass</option>
+                        <option value="Hexagonal Mason">Hexagonal Mason</option>
+                        <option value="Traditional Tin-Tie">Traditional Tin-Tie</option>
                     </select>
                 </div>
  
                 <div class="col-md-3">
-                    <label for="year" class="form-label">Flavor<span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="year" class="form-label">Dietary Label<span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_year" id="year" class="form-select" required>
-                        <option value="">Select Flavor</option>
-                        <option value="Strawberry">Strawberry</option>
-                        <option value="Blueberry">Blueberry</option>
-                        <option value="Raspberry">Raspberry</option>
-                        <option value="Fig & Honey">Fig & Honey</option>
-                        <option value="Orange Marmalade">Orange Marmalade</option>
+                        <option value="">Select Dietary Label</option>
+                        <option value="Standard/Classic">Standard / Classic</option>
+                        <option value="Organic">Organic</option>
+                        <option value="No Added Sugar">No Added Sugar</option>
+                        <option value="Vegan & Gluten-Free">Vegan & Gluten-Free</option>
+                        <option value="Halal Certified">Halal Certified</option>
                     </select>
                 </div>
                  
@@ -131,23 +131,225 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>P001</td>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
-                        <td>Cervelo</td>
+                        <td>Strawberry Jam </td>
+                        <td>RM12.00</td>
+                        <td>Orchard Bliss</td>
                         <td>
-                            <a href="#" class="btn btn-sm btn-warning">
-                                <i class="bi bi-pencil"></i>
-                            </a>
-                            <button type="button" class="btn btn-sm btn-info text-white">
-                                <i class="bi bi-image"></i>
-                            </button>
-                            <a href="#" class="btn btn-sm btn-danger">
-                                <i class="bi bi-trash"></i>
-                            </a>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="5" class="text-center">No products found</td>
+                        <td>P002</td>
+                        <td>Blueberry Jam </td>
+                        <td>RM14.00</td>
+                        <td>Orchard Bliss</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <!-- Continue mapping up to P020 -->
+                     <tr>
+                        <td>P003</td>
+                        <td>Raspberry Jam </td>
+                        <td>RM14.00</td>
+                        <td>Orchard Bliss</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P004</td>
+                        <td>Fig & Honey Jam </td>
+                        <td>RM16.00</td>
+                        <td>Orchard Bliss</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P005</td>
+                        <td>Orange Marmalade </td>
+                        <td>RM12.00</td>
+                        <td>Orchard Bliss</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P006</td>
+                        <td>Strawberry Spread </td>
+                        <td>RM13.50</td>
+                        <td>BerryBest</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P007</td>
+                        <td>Blueberry Burst </td>
+                        <td>RM15.00</td>
+                        <td>BerryBest</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P008</td>
+                        <td>Raspberry Ripple </td>
+                        <td>RM15.00</td>
+                        <td>BerryBest</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P009</td>
+                        <td>Fig & Lemon Honey </td>
+                        <td>RM17.50</td>
+                        <td>BerryBest</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P010</td>
+                        <td>Citrus Marmalade </td>
+                        <td>RM13.50</td>
+                        <td>BerryBest</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P011</td>
+                        <td>Wild Strawberry Preserve </td>
+                        <td>RM14.00</td>
+                        <td>Spoonful</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P012</td>
+                        <td>Wild Blueberry Jam </td>
+                        <td>RM16.00</td>
+                        <td>Spoonful</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P013</td>
+                        <td>Wild Raspberry Jam </td>
+                        <td>RM16.00</td>
+                        <td>Spoonful</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <!-- Continue mapping up to P020 -->
+                     <tr>
+                        <td>P014</td>
+                        <td>Fig & Wild Honey </td>
+                        <td>RM18.00</td>
+                        <td>Spoonful</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P015</td>
+                        <td>Sweet Orange Marmalade </td>
+                        <td>RM14.00</td>
+                        <td>Spoonful</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P016</td>
+                        <td>Premium Strawberry</td>
+                        <td>RM15.00</td>
+                        <td>The Jar House</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P017</td>
+                        <td>Premium Blueberry </td>
+                        <td>RM17.00</td>
+                        <td>The Jar House</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P018</td>
+                        <td>Premium Raspberry </td>
+                        <td>RM17.00</td>
+                        <td>The Jar House</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P019</td>
+                        <td>Premium Fig </td>
+                        <td>RM19.50</td>
+                        <td>The Jar House</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P020</td>
+                        <td>Premium Marmalade </td>
+                        <td>RM15.00</td>
+                        <td>The Jar House</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning" title="Edit"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-sm btn-info text-white" title="Image"><i class="bi bi-image"></i></button>
+                            <a href="#" class="btn btn-sm btn-danger" title="Delete"><i class="bi bi-trash"></i></a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
